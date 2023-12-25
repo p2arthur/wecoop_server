@@ -110,6 +110,8 @@ export class FeedService {
       userFollowTargets.includes(post.creator_address),
     );
 
+    console.log('filtered posts', filteredPosts);
+
     return filteredPosts;
   }
 }
